@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
     - image: google/cloud-sdk
+     - image: circleci/node:7.10
     steps:
     - checkout
     - run:
